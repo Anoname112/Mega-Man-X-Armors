@@ -1,0 +1,48 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #222222;
+	text-align: center;
+	font-family: Consolas;
+	color: #FFFFFF;
+}
+
+table {
+	width: 550px;
+	margin: 0 auto 0 auto;
+}
+
+td {
+	font-size: 13px;
+	background-color: #111111;
+	border: 1px solid #FFFFFF;
+	padding: 5px;
+}
+
+.title {
+	margin: 10px;
+	overflow: hidden;
+}
+
+.image {
+	background-color: #FFFFFF;
+}
+
+.image img {
+	width: 38px;
+	height: 50px;
+	max-width: 38px;
+	max-height: 50px;
+}
+
+.desc:hover {
+	background-color: #222222;
+}
+
+.game {
+	color: #DC143C;
+}
+
+.or {
+	color: #6A5ACD;
+}
