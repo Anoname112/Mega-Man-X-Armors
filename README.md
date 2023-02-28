@@ -1,1 +1,1 @@
-# Megaman-X-Armors
+# Mega-Man-X-Armors
