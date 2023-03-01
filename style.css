@@ -7,23 +7,31 @@ body {
 	color: #FFFFFF;
 }
 
-table {
-	width: 550px;
+.table {
 	margin: 0 auto;
+	width: 550px;
 }
 
 td {
-	font-size: 13px;
+	padding: 5px;
 	background-color: #111111;
 	border: 1px solid #FFFFFF;
-	padding: 5px;
+	font-size: 13px;
+}
+
+.container {
+	margin: 0;
+	padding: 10px;
+	display: grid;
+	grid-template-areas:
+		'title'
+		'table';
+	gap: 10px;
 }
 
 .title {
-	display: flex;
-	justify-content: center;
-	margin: 10px;
-	overflow: hidden;
+	width: 100%;
+	text-align: center;
 }
 
 .image {
