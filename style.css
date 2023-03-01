@@ -39,6 +39,7 @@ td {
 .table {
 	grid-area: table;
 	justify-self: center;
+	margin: 0 auto;
 }
 
 .image {
