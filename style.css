@@ -7,11 +7,6 @@ body {
 	color: #FFFFFF;
 }
 
-.table {
-	margin: 0 auto;
-	width: 500px;
-}
-
 td {
 	padding: 5px;
 	background-color: #111111;
@@ -21,18 +16,26 @@ td {
 
 .container {
 	margin: 0;
-	padding: 10px;
+	padding: 0;
 	display: grid;
 	grid-template-areas:
 		'title'
 		'table';
-	gap: 10px;
+	gap: 0;
 }
 
 .title {
-	width: 100%;
+	grid-area: title;
+	justify-self: center;
+	padding: 10px;
 	text-align: center;
 	font-size: 16px;
+}
+
+.table {
+	grid-area: table;
+	justify-self: center;
+	margin: 0 auto;
 }
 
 .image {
