@@ -39,7 +39,6 @@ td {
 .table {
 	grid-area: table;
 	justify-self: center;
-	margin: 0 auto;
 }
 
 .image {
@@ -54,7 +53,7 @@ td {
 }
 
 .desc:hover {
-	background-color: #1C1C1C;
+	background-color: #1D1D2D;
 }
 
 .game {
